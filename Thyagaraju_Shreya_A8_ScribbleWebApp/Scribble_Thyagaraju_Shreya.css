@@ -1,0 +1,50 @@
+
+
+ body {
+	font-family: 		sans-serif;
+	background-color: 	peachpuff; 	
+}
+
+#drawingCanvasId {
+	border: 			2px solid #c3c3c3;
+	margin-right: 		auto;
+	margin-left: 		auto;
+	display: 			block;
+	background-color: 	white;
+}
+
+#titleId {
+	text-align: 		center;
+}
+
+#informationDivId {
+	color: 				#111111;
+	font-weight: 		bold;
+	width: 				500px;
+	margin-right: 		auto;
+	margin-left: 		auto;
+	text-align: 		center;
+}
+
+p {
+	margin: 			0px;
+}
+
+.controlDiv {
+	width: 				500px;
+	margin-right: 		auto;
+	margin-left: 		auto;
+	padding-bottom: 	10px;		
+}
+
+.controlDiv button, select {
+	width: 				79px;
+	height: 			35px;
+	font-size: 			20px;
+	vertical-align: 	middle;	
+}
+
+#Gold 		{ background-color: #ffbe0b; }
+#Orange 	{ background-color: #f3722c; }
+#Purple		{ background-color: #7b2cbf; }
+#Gradient	{ background: linear-gradient(90deg, rgba(255,190,11,1) 0%, rgba(243,114,44,1) 37%, rgba(123,44,191,1) 100%); }
